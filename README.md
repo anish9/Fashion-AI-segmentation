@@ -29,7 +29,7 @@ https://en.wikipedia.org/wiki/Deep_learning
 
 4.Visualize the results in your save_directory.
 
-## SEMANTIC LABELING USING THE ABOVE METHOD(Beta)
+## SEMANTIC LABELLING USING THE ABOVE METHOD(Beta)
 ![t](https://user-images.githubusercontent.com/25944164/35455782-3a2db5de-02f9-11e8-828d-d1d922ded12b.jpg)
 
 
