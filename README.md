@@ -7,5 +7,6 @@ https://en.wikipedia.org/wiki/GrabCut
 ## Deep Learning
 https://en.wikipedia.org/wiki/Deep_learning
 # Package Requirements
-1.Python*.
+1.Python --hit
+
 2. OpenCV3.1.0
