@@ -1,4 +1,5 @@
 # Fashion-AI-segmentation
+![results](https://user-images.githubusercontent.com/25944164/35455349-8ada7410-02f7-11e8-905e-84dad8ee01df.jpg)
 *A New Approach by using the Blend of Image-Processing Technique and Deep-Learning Algorithm to Segment any Fashion and e-commerce Retail Images*.
 The code can be used for any industry on any images and the core algortithm is 'grab-cut algorithm" with the blend of Deep-Learning Convolutional Neural Networks. The Repo is designed in a preview way and its limited for fashion Images with auto-segmenting Top-wear clothes(Example: Tshirt, shirts) and Full-body clothes(salwar,gowns, shirt-pants-shoes)*
 
