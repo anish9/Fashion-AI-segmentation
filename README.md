@@ -23,7 +23,7 @@ https://en.wikipedia.org/wiki/Deep_learning
 
 1.*clone* the Repo to your local pc ensuring that all the package requirements satisfied.<enter>
   
-2.Run the code from the terminal **python fashion.py image1.jpg /Users/demo/** <enter>
+2.Run the code from the terminal **python fashion.py image1.jpg /Users/demo/save** <enter>
   
 3.argument1 -- *image_name -- image1.jpg*, argument2 -- *save_directory -- /Users/demo/*
 
