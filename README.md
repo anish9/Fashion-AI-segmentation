@@ -29,4 +29,4 @@ https://en.wikipedia.org/wiki/Deep_learning
 4.Visualize the results in your save_directory.
 
 
-[logo]: https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/Results.jpg"Logo Title Text 2"
+
