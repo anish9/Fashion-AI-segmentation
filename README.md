@@ -7,8 +7,8 @@ https://en.wikipedia.org/wiki/GrabCut
 ## Deep Learning
 https://en.wikipedia.org/wiki/Deep_learning
 # Package Requirements
-1.**python** __
-2.**opencv 3.0 -- image processing** __
+**1.python**
+**opencv 3.0 -- image processing**
 **Numpy -- scientific computing**
 **Keras with tensorflow backend(preffered) -- Deep Learning**
 **Pandas -- Text Data processing**
