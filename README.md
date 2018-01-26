@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/GrabCut
 ## Deep Learning
 https://en.wikipedia.org/wiki/Deep_learning
 # Package Requirements
-**1.Python<enter>
+**1.Python<enter>**
   
 2. OpenCV 3.1.0
 3.Keras with tensorflow backend
