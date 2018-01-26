@@ -29,5 +29,8 @@ https://en.wikipedia.org/wiki/Deep_learning
 
 4.Visualize the results in your save_directory.
 
+## SEMANTIC LABELING USING THE ABOVE METHOD(Beta)
+
+
 
 
