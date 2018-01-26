@@ -27,3 +27,6 @@ https://en.wikipedia.org/wiki/Deep_learning
 3.argument1 -- *image_name -- image1.jpg*, argument2 -- *save_directory -- /Users/demo/*
 
 4.Visualize the results in your save_directory.
+
+
+[logo]: https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/Results.jpg"Logo Title Text 2"
