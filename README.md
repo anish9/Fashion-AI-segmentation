@@ -9,8 +9,10 @@ https://en.wikipedia.org/wiki/Deep_learning
 # Package Requirements
 **1.Python<enter>**
   
-**2. OpenCV 3.1.0<enter>**
+**2.OpenCV 3.1.0<enter>**
   
 **3.Keras with tensorflow backend<enter>**
-4.Pandas
-5.NumPy**
+  
+**4.Pandas<enter>**
+  
+**5.NumPy<enter>**
