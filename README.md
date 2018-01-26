@@ -6,3 +6,9 @@ The code can be used for any industry on any images and the core algortithm is '
 https://en.wikipedia.org/wiki/GrabCut
 ## Deep Learning
 https://en.wikipedia.org/wiki/Deep_learning
+# Package Requirements
+**python
+**opencv 3.0 -- image processing
+**Numpy -- scientific computing
+**Keras with tensorflow backend(preffered) -- Deep Learning
+**Pandas -- Text Data processing
