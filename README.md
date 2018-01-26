@@ -33,7 +33,7 @@ https://en.wikipedia.org/wiki/Deep_learning
 ![t](https://user-images.githubusercontent.com/25944164/35455782-3a2db5de-02f9-11e8-828d-d1d922ded12b.jpg)
 
 # Author
-#### Anish Josh ####<enter>
+#### Anish Josh #### 
   
 ##### josh.anish1@gmail.com #####
 
