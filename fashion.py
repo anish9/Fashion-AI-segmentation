@@ -1,3 +1,6 @@
+#josh.anish1@gmail.com
+#the code has been created with an intention of previewing the entire project
+#contributions are welcomed!!!
 import cv2
 import numpy as np
 import os
