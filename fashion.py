@@ -6,7 +6,7 @@ import numpy as np
 import os
 import sys
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import keras
 from keras.models import Sequential
 from keras.layers import Conv2D
