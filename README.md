@@ -38,7 +38,7 @@ https://en.wikipedia.org/wiki/Deep_learning
 <img width="459" alt="test3" src="https://user-images.githubusercontent.com/25944164/41024873-077ceb36-698e-11e8-83b6-95a584f3a9d6.png">
 
 ### To run the project:
-python instance_segmentation.py image_name save_dir
+**python instance_segmentation.py image_name save_dir**
 
 # Author
 #### Anish Josh #### 
