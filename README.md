@@ -18,7 +18,7 @@ https://en.wikipedia.org/wiki/Deep_learning
   
 **5.NumPy<enter>**
 
-# Demo
+# Demo (AI-Segmentaion)
 #### Note: Demo Annotation shouldn't be replaced, adding new will not enable the code adaptation to new classes of images.(*The demo phase classes : Fashion full-body, Top-wear*)
 
 1.*clone* the Repo to your local pc ensuring that all the package requirements satisfied.<enter>
