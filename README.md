@@ -29,9 +29,16 @@ https://en.wikipedia.org/wiki/Deep_learning
 
 4.Visualize the results in your save_directory.
 
+# Demo (Instance Segmentation)
 ## instance segmentation image 
 
-![t](https://user-images.githubusercontent.com/25944164/35455782-3a2db5de-02f9-11e8-828d-d1d922ded12b.jpg)
+### Some Results
+<img width="459" alt="test1" src="https://user-images.githubusercontent.com/25944164/41024871-072df6fc-698e-11e8-99eb-9f3802fc1268.png">
+<img width="459" alt="test2" src="https://user-images.githubusercontent.com/25944164/41024872-0757439a-698e-11e8-8872-3971c9ae539a.png">
+<img width="459" alt="test3" src="https://user-images.githubusercontent.com/25944164/41024873-077ceb36-698e-11e8-83b6-95a584f3a9d6.png">
+
+### To run the project:
+python instance_segmentation.py image_name save_dir
 
 # Author
 #### Anish Josh #### 
