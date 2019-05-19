@@ -20,13 +20,13 @@ https://en.wikipedia.org/wiki/Deep_learning
 
 # Demo (AI-Segmentaion)
 #### Note: Demo Annotation shouldn't be replaced, adding new will not enable the code adaptation to new classes of images.(*The demo phase classes : Fashion full-body, Top-wear*)
-
+```
 1.*clone* the Repo to your local pc ensuring that all the package requirements satisfied.<enter>
   
 2.Run the code from the terminal **python fashion.py image1.jpg /Users/demo/save** <enter>
   
 3.argument1 -- *image_name -- image1.jpg*, argument2 -- *save_directory -- /Users/demo/*
-
+```
 4.Visualize the results in your save_directory.
 
 # Demo (Instance Segmentation)
@@ -38,7 +38,7 @@ https://en.wikipedia.org/wiki/Deep_learning
 <img width="459" alt="test3" src="https://user-images.githubusercontent.com/25944164/41024873-077ceb36-698e-11e8-83b6-95a584f3a9d6.png">
 
 ### To run the project:
-**python instance_segmentation.py image_name save_dir**
+```python instance_segmentation.py image_name save_dir ```
 
 # Author
 #### Anish Josh #### 
