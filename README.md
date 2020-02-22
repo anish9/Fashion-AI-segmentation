@@ -18,6 +18,14 @@ python run.py mydress.jpg
 
 > [download_pretrained](https://drive.google.com/open?id=14vTYmsHjUYv3VPo1Byrecs3NQuvJo89t)
 
+## Snippet to integrate anywhere
+```
+api    = fashion_tools(f,saved)
+image_ = api.get_dress()
+cv2.imwrite("out.png",image_)
+
+```
+
 
 # Version 1.0 
 ![results](https://user-images.githubusercontent.com/25944164/35455349-8ada7410-02f7-11e8-905e-84dad8ee01df.jpg)
