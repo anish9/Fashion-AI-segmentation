@@ -4,6 +4,18 @@
 # Version 1.1
 ![results](https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/collage.png)
 
+# Requirements
+### Tensorflow 2.0lalpha
+### Opencv
+### Python3.6
+
+# Inference
+### download the pretrained model and directly run
+```
+python run.py mydress.jpg
+
+```
+
 
 # Version 1.0
 ![results](https://user-images.githubusercontent.com/25944164/35455349-8ada7410-02f7-11e8-905e-84dad8ee01df.jpg)
