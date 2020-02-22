@@ -10,7 +10,7 @@
 #### Python3.6
 
 # Inference
-### download the pretrained model and directly run
+****download the pretrained model and directly run****
 ```
 python run.py mydress.jpg
 
