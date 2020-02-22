@@ -1,6 +1,9 @@
 # NOTE:
 ## This repo verison is being upgraded, a new deep learning model has been provided(works only on full body and top wear clothes only) has been open sourced. users who used previous version is requested to use the pretrained model developed on tensorflow2.0.alpha.
 
+## Updated results
+![results](https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/collage.png)
+
 
 # Fashion-AI-segmentation using Deep Learning
 ![results](https://user-images.githubusercontent.com/25944164/35455349-8ada7410-02f7-11e8-905e-84dad8ee01df.jpg)
