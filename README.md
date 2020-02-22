@@ -18,7 +18,7 @@ python run.py mydress.jpg
 
 > [download_pretrained](https://drive.google.com/open?id=14vTYmsHjUYv3VPo1Byrecs3NQuvJo89t)
 
-## Snippet to integrate anywhere
+****Snippet to integrate anywhere****
 ```
 api    = fashion_tools(f,saved)
 image_ = api.get_dress()
