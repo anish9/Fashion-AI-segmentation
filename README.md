@@ -5,9 +5,9 @@
 ![results](https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/collage.png)
 
 # Requirements
-### Tensorflow 2.0lalpha
-### OpenCV
-### Python3.6
+#### Tensorflow 2.0-alpha
+#### OpenCV
+#### Python3.6
 
 # Inference
 ### download the pretrained model and directly run
