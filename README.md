@@ -1,3 +1,7 @@
+# NOTE:
+## This repo verison is being upgraded, a direct deep learning model has been provided(works only on full body and top wear clothes only) has been open sourced. users who used previous version is requested to use the pretrained model developed on tensorflow2.0.alpha.
+
+
 # Fashion-AI-segmentation using Deep Learning
 ![results](https://user-images.githubusercontent.com/25944164/35455349-8ada7410-02f7-11e8-905e-84dad8ee01df.jpg)
 *A New Approach by using the Blend of Image-Processing Technique and Deep-Learning Algorithm to Segment any Fashion and e-commerce Retail Images*.
