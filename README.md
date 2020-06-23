@@ -1,4 +1,6 @@
 
+[![HitCount](http://hits.dwyl.com/anish9/Fashion-AI-segmentation.svg)](http://hits.dwyl.com/anish9/Fashion-AI-segmentation)
+
 # NOTE:
 ***This repository has been upgraded, a new deep learning model has been provided(works only on full body and top wear clothes) has been released. Algorithm migration has been carried for the ease segmentation in version1.1***
 
