@@ -12,7 +12,7 @@
 ```
 # Inference
 ****download the pretrained model and directly run****
-> [download_pretrained](https://drive.google.com/open?id=14vTYmsHjUYv3VPo1Byrecs3NQuvJo89t)
+[download_pretrained](https://drive.google.com/open?id=14vTYmsHjUYv3VPo1Byrecs3NQuvJo89t)
 ```
 python run.py mydress.jpg
 
