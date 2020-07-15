@@ -1,7 +1,6 @@
 
 [![HitCount](http://hits.dwyl.com/anish9/Fashion-AI-segmentation.svg)](http://hits.dwyl.com/anish9/Fashion-AI-segmentation)
 
-# Version 1.1
 ![results](https://github.com/anish9/Fashion-AI-segmentation/blob/master/result/collage.png)
 
 # Requirements
