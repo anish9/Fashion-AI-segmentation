@@ -51,10 +51,7 @@ class fashion_tools(object):
         
     def get_patch(self):
         return None
-    
-    def development(self):
-        n_ = '\n'
-        return (f"VERSION : {self.version} {n_} Interesting tools to be added to the workflow pipe!!!")
+
 
 
 
@@ -64,8 +61,4 @@ class fashion_tools(object):
 
 api    = fashion_tools(f,saved)
 image_ = api.get_dress(True)
-
-print("########################################")
-print(api.development())
-print("########################################")
 cv2.imwrite("out.png",image_)
