@@ -6,7 +6,7 @@
 # Requirements
 ```
 * Python3.6
-* Tensorflow 2.0-alpha
+* Tensorflow 2.2
 * OpenCV
 ```
 # Inference
