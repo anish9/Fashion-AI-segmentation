@@ -11,7 +11,7 @@
 ```
 # Inference
 ****download the pretrained model****
-[download](https://drive.google.com/open?id=14vTYmsHjUYv3VPo1Byrecs3NQuvJo89t)
+[download](https://drive.google.com/file/d/1l7PUB8uAGRyqvZ0ti0ZACoI2CzJxOVoI/view?usp=sharing)
 ```
 python run.py mydress.jpg
 
