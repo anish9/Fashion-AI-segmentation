@@ -16,7 +16,7 @@ f = sys.argv[1]
 
 
 
-saved = load_model("topwears.h5")
+saved = load_model("save_ckp_frozen.h5")
 
 
 class fashion_tools(object):
