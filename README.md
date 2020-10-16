@@ -19,7 +19,7 @@
 python run.py mydress.jpg
 ```
 ### Note:
-* current model supports full body and top wear clothes only, future model will be released for any fashion categories precisely.
+* current model supports full body and top wear dresses only, future model will be released for any fashion categories precisely.
 
 
 
