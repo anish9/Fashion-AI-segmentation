@@ -17,6 +17,9 @@
 [download](https://drive.google.com/file/d/1l7PUB8uAGRyqvZ0ti0ZACoI2CzJxOVoI/view?usp=sharing)
 ```
 python run.py mydress.jpg
+```
+### Note:
+* current model supports full body and top wear clothes only, future model will be released for any fashion categories precisely.
 
 
 
