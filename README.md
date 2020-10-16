@@ -1,7 +1,7 @@
 
 [![HitCount](http://hits.dwyl.com/anish9/Fashion-AI-segmentation.svg)](http://hits.dwyl.com/anish9/Fashion-AI-segmentation)
 
-![results](https://github.com/anish9/Fashion-AI-segmentation/c1.png)
+![results](https://github.com/anish9/Fashion-AI-segmentation/blob/master/c1.png)
 
 # Requirements
 ```
