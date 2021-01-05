@@ -8,7 +8,7 @@
 * OpenCV
 ```
 ## Results 
-![results1](https://github.com/anish9/Fashion-AI-segmentation/blob/master/c1.png)
+
 
 ![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/c2.png)
 
