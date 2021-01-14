@@ -21,5 +21,5 @@ python run.py mydress.jpg
 ### Note:
 * current model supports full body and top wear dresses only, future model will be released for any fashion categories precisely.
 
-
+### You can checkout interesting topics solved at <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Transfer</a>
 
