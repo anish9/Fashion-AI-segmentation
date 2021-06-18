@@ -60,5 +60,5 @@ class fashion_tools(object):
 
 
 api    = fashion_tools(f,saved)
-image_ = api.get_dress(True)
+image_ = api.get_dress(stack=True)
 cv2.imwrite("out.png",image_)
