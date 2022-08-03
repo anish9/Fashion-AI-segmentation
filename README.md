@@ -1,6 +1,10 @@
 
 [![HitCount](http://hits.dwyl.com/anish9/Fashion-AI-segmentation.svg)](http://hits.dwyl.com/anish9/Fashion-AI-segmentation)
 
+# Update : 
+<a href="https://github.com/anish9/deep-fashion-captions">Large scale fashion caption generation model based on Transformers has been released for testing.</a>
+
+
 ## Requirements
 ```
 * Python3.6
