@@ -8,16 +8,20 @@
 ## Basic Requirements
 ```
 * Python3
-* Tensorflow 2.2 >=
+* Tensorflow 2.2 <=
 * OpenCV
 * Numpy
 ```
-## Results 
-![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/c2.png)
+## Output
+![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/response_result.png)
 
 ## Inference
 ****download the pretrained model****
 [download](https://drive.google.com/file/d/1SJbtdkaRMrc0EtbwiMXbYw_lKYYrKBDb/view?usp=sharing)
+
+```
+Simple inference is available in run.py
+```
 
 ### Note:
 * ###### current model supports full body and top wear dresses only.
