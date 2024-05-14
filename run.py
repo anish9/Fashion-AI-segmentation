@@ -1,64 +1,54 @@
+# Logs Updated : 2024
+# Type : Basic demo
+# Node : Unknown
+
 import cv2
 import numpy as np
-from tensorflow.keras.models import load_model
 import tensorflow as tf
-import sys
-from tensorflow.compat.v1 import ConfigProto
-from tensorflow.compat.v1 import InteractiveSession
-config = ConfigProto()
-config.gpu_options.allow_growth = True
-session = InteractiveSession(config=config)
+import matplotlib.pyplot as plt
+from tensorflow.keras.models import load_model
+
+h,w = 512,512
+
+base_model = load_model("froze.h5")
+
+def remove_pads(im,padded_im,base_value=576):
+    hw_ = list(im.shape[:2])
+    h_or_w = hw_.index(max(hw_))
+    if h_or_w == 0 :
+        ratio  = base_value/max(hw_)
+        height = base_value
+        width  = int(ratio*im.shape[1])
+        diff_  = (np.abs(base_value-width))//2
+        crop_file = padded_im[:,diff_:base_value-diff_]
+    else:
+        ratio  = base_value/max(hw_)
+        height = int(ratio*im.shape[0]) 
+        width  = base_value
+        diff_  = (np.abs(base_value-height))//2
+        crop_file = padded_im[diff_:base_value-diff_,:]
+
+    return crop_file
 
 
+def predict_and_visualize(file):
+    im = tf.io.read_file(file)
+    im = tf.io.decode_png(im,channels=3)
+    array_image = im.numpy()
+    orig_h,orig_w,_ = im.shape
+    im_p = tf.image.resize_with_pad(im,h,w)
+    raw = np.array(im.numpy(),dtype=np.uint8)
+    imb_p = np.expand_dims(im_p,axis=0)/255.
+    pred = base_model.predict(imb_p,verbose=0)[0]
+    unpadded_pred = remove_pads(im,pred,base_value=w) #get your mask here
+    ##### visualize code #####
+    # mask = np.array(unpadded_pred*255.,np.uint8)
+    # mask = cv2.resize(mask,(orig_w,orig_h))[:,:,np.newaxis]
+    # mask = np.repeat(mask,3,axis=-1)
+    # dst = cv2.addWeighted(array_image, 0.2, mask, 0.8, 0.0)
+    # cv2.imwrite("out.jpg",dst)
+    return unpadded_pred
 
 
-f = sys.argv[1]
-
-
-
-saved = load_model("save_ckp_frozen.h5")
-
-
-class fashion_tools(object):
-    def __init__(self,imageid,model,version=1.1):
-        self.imageid = imageid
-        self.model   = model
-        self.version = version
-        
-    def get_dress(self,stack=False):
-        """limited to top wear and full body dresses (wild and studio working)"""
-        """takes input rgb----> return PNG"""
-        name =  self.imageid
-        file = cv2.imread(name)
-        file = tf.image.resize_with_pad(file,target_height=512,target_width=512)
-        rgb  = file.numpy()
-        file = np.expand_dims(file,axis=0)/ 255.
-        seq = self.model.predict(file)
-        seq = seq[3][0,:,:,0]
-        seq = np.expand_dims(seq,axis=-1)
-        c1x = rgb*seq
-        c2x = rgb*(1-seq)
-        cfx = c1x+c2x
-        dummy = np.ones((rgb.shape[0],rgb.shape[1],1))
-        rgbx = np.concatenate((rgb,dummy*255),axis=-1)
-        rgbs = np.concatenate((cfx,seq*255.),axis=-1)
-        if stack:
-            stacked = np.hstack((rgbx,rgbs))
-            return stacked
-        else:
-            return rgbs
-        
-        
-    def get_patch(self):
-        return None
-
-
-
-
-    
-###running code
-
-
-api    = fashion_tools(f,saved)
-image_ = api.get_dress(stack=True)
-cv2.imwrite("out.png",image_)
+if __name__=="__main__":
+    predict_and_visualize("paris_fashion_week.png")
