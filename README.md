@@ -24,7 +24,7 @@ Simple inference is available in run.py
 ```
 
 ### Note:
-* ###### current model supports full body and top wear dresses only.
+* ###### Current model supports full-body and top-wear dresses.
 
-* ###### You can checkout interesting topics solved and discussed at <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
+* ###### You can checkout interesting topics solved and discussed at Preview of <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
 
