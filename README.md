@@ -5,15 +5,14 @@
 <a href="https://github.com/anish9/deep-fashion-captions">Large scale fashion caption generation model based on Transformers has been released for testing.</a>
 
 
-## Requirements
+## Basic Requirements
 ```
-* Python3.6
-* Tensorflow 2.2
+* Python3
+* Tensorflow 2.2 >=
 * OpenCV
+* Numpy
 ```
 ## Results 
-
-
 ![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/c2.png)
 
 ## Inference
