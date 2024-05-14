@@ -16,7 +16,7 @@
 ![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/response_result.png)
 
 ## Testing
-****Download the pre-trained model****
+****Download Model****
 [download](https://drive.google.com/file/d/1SJbtdkaRMrc0EtbwiMXbYw_lKYYrKBDb/view?usp=sharing)
 
 ```
