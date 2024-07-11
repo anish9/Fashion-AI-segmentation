@@ -1,14 +1,10 @@
 
 [![HitCount](http://hits.dwyl.com/anish9/Fashion-AI-segmentation.svg)](http://hits.dwyl.com/anish9/Fashion-AI-segmentation)
-
-## UPDATE : 
-<a href="https://github.com/anish9/deep-fashion-captions">Large scale fashion caption generation model based on Transformers has been released for testing.</a>
-
-
+ 
 ## Basic Requirements
 ```
 * Python3
-* Tensorflow 2.2 <=
+* Tensorflow 2.x <=
 * OpenCV
 * Numpy
 ```
@@ -24,9 +20,10 @@
 
 predict_and_visualize("paris_fashion_week.png")
 ```
+### Limitations:
+*Current model supports full-body and top-wear dresses.
+*You can checkout interesting topics solved and discussed at Preview of <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
 
-### Note:
-* ###### Current model supports full-body and top-wear dresses.
-
-* ###### You can checkout interesting topics solved and discussed at Preview of <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
+### other Fun projects:
+<a href="https://github.com/anish9/deep-fashion-captions">Large scale fashion caption generation model based on Transformers has been released for testing.</a>
 
