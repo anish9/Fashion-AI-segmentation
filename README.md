@@ -21,9 +21,8 @@
 predict_and_visualize("paris_fashion_week.png")
 ```
 ### Limitations:
-*Current model supports full-body and top-wear dresses.
-*You can checkout interesting topics solved and discussed at Preview of <a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
+* Current model supports full-body and top-wear dresses.
 
 ### other Fun projects:
 <a href="https://github.com/anish9/deep-fashion-captions">Large scale fashion caption generation model based on Transformers has been released for testing.</a>
-
+<a href ="https://github.com/anish9/Fashion-Transfer">Fashion Swap</a>
