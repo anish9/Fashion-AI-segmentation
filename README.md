@@ -20,7 +20,9 @@
 [download](https://drive.google.com/file/d/1SJbtdkaRMrc0EtbwiMXbYw_lKYYrKBDb/view?usp=sharing)
 
 ```
-Simple inference is available in run.py
+#Change the filepath in run.py
+
+predict_and_visualize("paris_fashion_week.png")
 ```
 
 ### Note:
