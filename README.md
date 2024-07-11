@@ -8,7 +8,7 @@
 * OpenCV
 * Numpy
 ```
-## Output
+## Parse Garments 
 ![results2](https://github.com/anish9/Fashion-AI-segmentation/blob/master/response_result.png)
 
 ## Testing
